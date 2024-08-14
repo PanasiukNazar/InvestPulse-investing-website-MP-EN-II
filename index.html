@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>InvestPulse</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta content="" name="keywords" />
+        <meta content="" name="description" />
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon" />
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Barlow:wght@600;700&family=Ubuntu:wght@400;500&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Icon Font Stylesheet -->
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+            rel="stylesheet"
+        />
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet" />
+        <link
+            href="lib/owlcarousel/assets/owl.carousel.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css"
+            rel="stylesheet"
+        />
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <!-- Spinner Start -->
+        <div
+            id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+        >
+            <div
+                class="spinner-border text-primary"
+                style="width: 3rem; height: 3rem"
+                role="status"
+            >
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Topbar Start -->
+        <div class="container-fluid bg-light p-0">
+            <div class="row gx-0 d-none d-lg-flex">
+                <div class="col-lg-7 px-5 text-start">
+                    <div
+                        class="h-100 d-inline-flex align-items-center py-3 me-4"
+                    >
+                        <small
+                            class="fa fa-map-marker-alt text-primary me-2"
+                        ></small>
+                        <small
+                            >23 Westfield Park, Redland, Bristol BS6 6LT,
+                            UK</small
+                        >
+                    </div>
+                    <div class="h-100 d-inline-flex align-items-center py-3">
+                        <small class="far fa-clock text-primary me-2"></small>
+                        <small>Mon - Fri : 09.00 AM - 09.00 PM</small>
+                    </div>
+                </div>
+                <div class="col-lg-5 px-5 text-end">
+                    <div
+                        class="h-100 d-inline-flex align-items-center py-3 me-4"
+                    >
+                        <small
+                            class="fa fa-phone-alt text-primary me-2"
+                        ></small>
+                        <small>+441174270117</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Topbar End -->
+
+        <!-- Navbar Start -->
+        <nav
+            class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0"
+        >
+            <a
+                href="index.html"
+                class="navbar-brand d-flex align-items-center px-4 px-lg-5"
+            >
+                <h2 class="m-0 text-primary">InvestPulse</h2>
+            </a>
+            <button
+                type="button"
+                class="navbar-toggler me-4"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto p-4 p-lg-0">
+                    <a href="index.html" class="nav-item nav-link active"
+                        >Home</a
+                    >
+                    <a href="about.html" class="nav-item nav-link">About</a>
+                    <a href="service.html" class="nav-item nav-link"
+                        >Services</a
+                    >
+                    <a href="testimonial.html" class="nav-item nav-link"
+                        >Testimonials</a
+                    >
+                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                </div>
+            </div>
+        </nav>
+        <!-- Navbar End -->
+
+        <!-- Carousel Start -->
+        <div class="container-fluid p-0 mb-5">
+            <div
+                id="header-carousel"
+                class="carousel slide"
+                data-bs-ride="carousel"
+            >
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img
+                            class="w-100"
+                            src="img/carousel-bg-1.jpg"
+                            alt="Image"
+                        />
+                        <div class="carousel-caption d-flex align-items-center">
+                            <div class="container">
+                                <div
+                                    class="row align-items-center justify-content-center justify-content-lg-start"
+                                >
+                                    <div
+                                        class="col-10 col-lg-7 text-center text-lg-start"
+                                    >
+                                        <h1
+                                            class="display-3 text-white mb-4 pb-3 animated slideInDown"
+                                        >
+                                            Explore Investment Opportunities
+                                        </h1>
+                                        <p>
+                                            Discover innovative solutions in the
+                                            world of investing and trading. Our
+                                            approach to investment management
+                                            and strategy helps you navigate the
+                                            complex financial landscape with
+                                            confidence. From forex trading to
+                                            stocks with big growth potential, we
+                                            offer tailored investment services
+                                            designed to maximize your returns
+                                            and achieve your financial goals.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img
+                            class="w-100"
+                            src="img/carousel-bg-2.jpg"
+                            alt="Image"
+                        />
+                        <div class="carousel-caption d-flex align-items-center">
+                            <div class="container">
+                                <div
+                                    class="row align-items-center justify-content-center justify-content-lg-start"
+                                >
+                                    <div
+                                        class="col-10 col-lg-7 text-center text-lg-start"
+                                    >
+                                        <h1
+                                            class="display-3 text-white mb-4 pb-3 animated slideInDown"
+                                        >
+                                            Maximize Your Financial Potential
+                                        </h1>
+                                        <p>
+                                            Uncover the secrets to successful
+                                            investment management with our
+                                            comprehensive investment strategy.
+                                            Our expertise in forex trading and
+                                            investment services equips you with
+                                            the tools needed to make informed
+                                            decisions. Whether you're interested
+                                            in stocks with big growth potential
+                                            or seeking strategic investment
+                                            insights, we provide the guidance
+                                            necessary to unlock your financial
+                                            potential.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#header-carousel"
+                    data-bs-slide="prev"
+                >
+                    <span
+                        class="carousel-control-prev-icon"
+                        aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#header-carousel"
+                    data-bs-slide="next"
+                >
+                    <span
+                        class="carousel-control-next-icon"
+                        aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <!-- Carousel End -->
+
+        <!-- Service Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-4">
+                    <div
+                        class="col-lg-4 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.1s"
+                    >
+                        <div class="d-flex py-5 px-4">
+                            <i
+                                class="fa fa-certificate fa-3x text-primary flex-shrink-0"
+                            ></i>
+                            <div class="ps-4">
+                                <h5 class="mb-3">Expertise in Forex Trading</h5>
+                                <p>
+                                    Benefit from our in-depth knowledge and
+                                    experience in forex trading. Our expert team
+                                    provides insights and strategies to help you
+                                    navigate the complexities of the forex
+                                    market.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-4 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.3s"
+                    >
+                        <div class="d-flex bg-light py-5 px-4">
+                            <i
+                                class="fa fa-users-cog fa-3x text-primary flex-shrink-0"
+                            ></i>
+                            <div class="ps-4">
+                                <h5 class="mb-3">
+                                    Comprehensive Investment Management
+                                </h5>
+                                <p>
+                                    Experience the advantages of professional
+                                    investment management. We offer personalized
+                                    services to help you manage and grow your
+                                    investments effectively.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-4 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.5s"
+                    >
+                        <div class="d-flex py-5 px-4">
+                            <i
+                                class="fa fa-tools fa-3x text-primary flex-shrink-0"
+                            ></i>
+                            <div class="ps-4">
+                                <h5 class="mb-3">
+                                    Strategic Investment Services
+                                </h5>
+                                <p>
+                                    Leverage our strategic investment services
+                                    to make the most of your investment
+                                    opportunities. We specialize in crafting
+                                    customized investment strategies that focus
+                                    on stocks with big growth potential and
+                                    other high-return assets.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Service End -->
+
+        <!-- Fact Start -->
+        <div class="container-fluid fact bg-dark my-5 py-5">
+            <div class="container">
+                <div class="row g-4">
+                    <div
+                        class="col-md-6 col-lg-3 text-center wow fadeIn"
+                        data-wow-delay="0.1s"
+                    >
+                        <i class="fa fa-check fa-2x text-white mb-3"></i>
+                        <h2 class="text-white mb-2" data-toggle="counter-up">
+                            12
+                        </h2>
+                        <p class="text-white mb-0">Years Experience</p>
+                    </div>
+                    <div
+                        class="col-md-6 col-lg-3 text-center wow fadeIn"
+                        data-wow-delay="0.3s"
+                    >
+                        <i class="fa fa-users-cog fa-2x text-white mb-3"></i>
+                        <h2 class="text-white mb-2" data-toggle="counter-up">
+                            25
+                        </h2>
+                        <p class="text-white mb-0">Expert Technicians</p>
+                    </div>
+                    <div
+                        class="col-md-6 col-lg-3 text-center wow fadeIn"
+                        data-wow-delay="0.5s"
+                    >
+                        <i class="fa fa-users fa-2x text-white mb-3"></i>
+                        <h2 class="text-white mb-2" data-toggle="counter-up">
+                            2832
+                        </h2>
+                        <p class="text-white mb-0">Satisfied Clients</p>
+                    </div>
+                    <div
+                        class="col-md-6 col-lg-3 text-center wow fadeIn"
+                        data-wow-delay="0.7s"
+                    >
+                        <i class="fa fa-car fa-2x text-white mb-3"></i>
+                        <h2 class="text-white mb-2" data-toggle="counter-up">
+                            78
+                        </h2>
+                        <p class="text-white mb-0">Compleate Projects</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Fact End -->
+
+        <!-- About Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-lg-6 pt-4" style="min-height: 400px">
+                        <div
+                            class="position-relative h-100 wow fadeIn"
+                            data-wow-delay="0.1s"
+                        >
+                            <img
+                                class="position-absolute img-fluid w-100 h-100"
+                                src="img/approach.jpg"
+                                style="object-fit: cover"
+                                alt=""
+                            />
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <h6 class="text-primary text-uppercase">
+                            Integrating Advanced Forex Trading Techniques and
+                            Comprehensive Market Analysis for Optimal Financial
+                            Growth
+                        </h6>
+                        <h1 class="mb-4">
+                            <span class="text-primary">
+                                Holistic Investment</span
+                            >
+                            Management
+                        </h1>
+                        <p class="mb-4">
+                            Our approach to investment management is centered
+                            around a holistic view of your financial goals. We
+                            combine advanced techniques in forex trading with a
+                            deep understanding of market trends to create a
+                            comprehensive strategy tailored to your needs. By
+                            integrating a wide range of investment services, we
+                            ensure that every aspect of your portfolio is
+                            optimized for growth and stability. Whether you are
+                            focusing on stocks with big growth potential or
+                            diversifying your investments, our approach is
+                            designed to maximize your returns while managing
+                            risk effectively.
+                        </p>
+                    </div>
+                </div>
+                <div
+                    class="row g-5"
+                    style="flex-direction: row-reverse; margin-top: 50px"
+                >
+                    <div class="col-lg-6 pt-4" style="min-height: 400px">
+                        <div
+                            class="position-relative h-100 wow fadeIn"
+                            data-wow-delay="0.1s"
+                        >
+                            <img
+                                class="position-absolute img-fluid w-100 h-100"
+                                src="img/approach2.jpg"
+                                style="object-fit: cover"
+                                alt=""
+                            />
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <h6 class="text-primary text-uppercase">
+                            Customized Plans for Maximizing Returns with
+                            Strategic Focus on Forex Trading and High-Potential
+                            Stocks
+                        </h6>
+                        <h1 class="mb-4">
+                            <span class="text-primary">
+                                Tailored Investment</span
+                            >
+                            Strategies
+                        </h1>
+                        <p class="mb-4">
+                            We believe in creating investment strategies that
+                            are as unique as you are. Our approach involves a
+                            detailed analysis of market conditions and
+                            individual investment opportunities, including forex
+                            trading and high-potential stocks. We work closely
+                            with you to develop a customized plan that aligns
+                            with your financial goals and risk tolerance.
+                            Through strategic planning and ongoing adjustments,
+                            our investment services are designed to adapt to
+                            changing market dynamics, ensuring that your
+                            investment strategy remains robust and responsive to
+                            new opportunities.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+        <!-- Booking Start -->
+        <div
+            class="container-fluid bg-secondary booking my-5 wow fadeInUp"
+            data-wow-delay="0.1s"
+        >
+            <div class="container">
+                <div class="row gx-5">
+                    <div class="col-lg-12 py-5">
+                        <div class="py-5">
+                            <h1 class="text-white mb-4">
+                                Elevate Your Investment Journey with Expert
+                                Strategies
+                            </h1>
+                            <p class="text-white mb-0">
+                                In the dynamic world of investing and trading,
+                                staying ahead requires a blend of knowledge,
+                                strategy, and adaptability. Our approach to
+                                investment management is designed to provide you
+                                with a comprehensive and forward-thinking
+                                strategy that meets your financial goals and
+                                adapts to the ever-changing market landscape.
+                                Our focus on forex trading ensures that you have
+                                access to cutting-edge techniques and insights
+                                that can transform your trading experience.
+                                Forex trading, with its vast liquidity and
+                                global reach, offers unique opportunities for
+                                growth, but it also requires a nuanced
+                                understanding of market trends and trading
+                                strategies. We provide you with the tools and
+                                knowledge needed to navigate this complex market
+                                effectively, whether you are a seasoned trader
+                                or just beginning your journey. Investment
+                                management is more than just monitoring your
+                                portfolio; it involves creating a strategic plan
+                                that aligns with your long-term financial
+                                objectives. We work closely with you to develop
+                                a tailored investment strategy that considers
+                                your risk tolerance, investment goals, and
+                                market conditions. This personalized approach
+                                ensures that your investments are managed
+                                effectively, maximizing your potential returns
+                                while minimizing risk. Our investment services
+                                are designed to offer comprehensive support
+                                across various asset classes. We help you
+                                identify stocks with big growth potential,
+                                providing detailed analysis and insights to
+                                guide your investment decisions. By focusing on
+                                these high-potential stocks, we aim to enhance
+                                your portfolio’s performance and achieve
+                                substantial growth. With our integrated
+                                approach, you receive not only expert advice but
+                                also a strategic partnership dedicated to your
+                                financial success. Whether you're looking to
+                                refine your forex trading skills, implement a
+                                robust investment strategy, or explore
+                                investment services tailored to your needs, we
+                                provide the expertise and resources necessary to
+                                excel in today’s competitive market. Embrace the
+                                opportunity to elevate your investment journey
+                                with our expert guidance and start achieving
+                                your financial goals with confidence.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Booking End -->
+
+        <!-- Team Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h6 class="text-primary text-uppercase">
+                        Insights and Strategies for Modern Investing
+                    </h6>
+                    <h1>Insights and Strategies for Financial Success</h1>
+                    <p class="mb-5">
+                        Welcome to our blog, where we share expert insights and
+                        strategies on various aspects of financial planning and
+                        asset management. Our articles cover a range of topics,
+                        from investment strategies and portfolio diversification
+                        to achieving financial independence and generating
+                        passive income. We provide practical advice and
+                        thought-provoking commentary to help you navigate the
+                        complexities of the financial world. Whether you're
+                        looking to optimize your portfolio solutions or seeking
+                        tips on smart investing, our blog is your go-to resource
+                        for staying informed and making empowered financial
+                        decisions. Join us as we explore the latest trends and
+                        timeless principles that contribute to financial
+                        stability and long-term success.
+                    </p>
+                </div>
+                <div class="row g-4">
+                    <div
+                        class="col-lg-4 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.5s"
+                    >
+                        <div class="team-item">
+                            <div class="position-relative overflow-hidden">
+                                <img
+                                    style="
+                                        width: 100%;
+                                        height: 300px;
+                                        object-fit: cover;
+                                    "
+                                    class="img-fluid"
+                                    src="img/blog-1.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="bg-light text-center p-4">
+                                <h5 class="fw-bold mb-0">
+                                    Mastering Forex Trading: Essential Tips for
+                                    Success
+                                </h5>
+                                <small>
+                                    Discover key strategies and best practices
+                                    for navigating the forex trading market.
+                                    This blog covers essential tips for both
+                                    novice and experienced traders, focusing on
+                                    techniques that can enhance your trading
+                                    skills and improve your market
+                                    outcomes.</small
+                                >
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-4 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.7s"
+                    >
+                        <div class="team-item">
+                            <div class="position-relative overflow-hidden">
+                                <img
+                                    style="
+                                        width: 100%;
+                                        height: 300px;
+                                        object-fit: cover;
+                                    "
+                                    class="img-fluid"
+                                    src="img/blog-2.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="bg-light text-center p-4">
+                                <h5 class="fw-bold mb-0">
+                                    Investment Management Strategies: Building a
+                                    Robust Portfolio
+                                </h5>
+                                <small>
+                                    Learn how to develop and implement effective
+                                    investment management strategies. This post
+                                    explores various methods for managing your
+                                    investments, balancing risk, and optimizing
+                                    your portfolio to achieve long-term
+                                    financial goals.</small
+                                >
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-4 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.7s"
+                    >
+                        <div class="team-item">
+                            <div class="position-relative overflow-hidden">
+                                <img
+                                    style="
+                                        width: 100%;
+                                        height: 300px;
+                                        object-fit: cover;
+                                    "
+                                    class="img-fluid"
+                                    src="img/blog-3.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="bg-light text-center p-4">
+                                <h5 class="fw-bold mb-0">
+                                    Identifying Stocks with Big Growth
+                                    Potential: A Strategic Approach
+                                </h5>
+                                <small>
+                                    Explore how to identify and evaluate stocks
+                                    with significant growth potential. This blog
+                                    provides insights into analyzing market
+                                    trends, understanding growth indicators, and
+                                    making informed investment decisions to
+                                    capitalize on high-potential stocks.</small
+                                >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Team End -->
+
+        <!-- Footer Start -->
+        <div
+            class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn"
+            data-wow-delay="0.1s"
+        >
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="text-light mb-4">InvestPulse</h4>
+                        <p>
+                            At the core of successful investing and trading lies
+                            a commitment to staying informed and connected. Our
+                            footer provides essential links and information to
+                            keep you engaged with the latest updates and
+                            resources in the financial world.
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="text-light mb-4">Address</h4>
+                        <p class="mb-2">
+                            <i class="fa fa-map-marker-alt me-3"></i>23
+                            Westfield Park, Redland, Bristol BS6 6LT, UK
+                        </p>
+                        <p class="mb-2">
+                            <i class="fa fa-phone-alt me-3"></i>+441174270117
+                        </p>
+                        <p class="mb-2">
+                            <i class="fa fa-envelope me-3"></i
+                            >invest_pulse@gmail.com
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="text-light mb-4">Quick links</h4>
+                        <ul style="list-style: none; padding-left: 0px">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About us</a></li>
+                            <li><a href="terms-of-use.html">Terms</a></li>
+                            <li>
+                                <a href="privacy-policy.html">Privacy policy</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="text-light mb-4">Newsletter</h4>
+                        <p>
+                            Subscribe to our newsletter for exclusive insights
+                            and updates on leveraging historical wisdom for
+                            modern business success.
+                        </p>
+                        <div
+                            class="position-relative mx-auto"
+                            style="max-width: 400px"
+                        >
+                            <input
+                                class="form-control border-0 w-100 py-3 ps-4 pe-5"
+                                type="text"
+                                placeholder="Your email"
+                                id="email"
+                            />
+                            <button
+                                type="button"
+                                id="submit"
+                                onclick="sendForm()"
+                                class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2"
+                            >
+                                SignUp
+                            </button>
+                        </div>
+                        <div id="result"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"
+            ><i class="bi bi-arrow-up"></i
+        ></a>
+
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center">Cookie Consent</h2>
+            </div>
+
+            <div class="data">
+                <p>
+                    This website uses cookies to provide you with a superior and
+                    more relevant browsing experience on the site.
+                    <a href="#">Learn more...</a>
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">Accept</button>
+                <button class="cookie-button" id="declineBtn">Decline</button>
+            </div>
+        </div>
+        <!-- End Cookie banner -->
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/tempusdominus/js/moment.min.js"></script>
+        <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+        <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script src="js/contact-form.js"></script>
+        <script src="js/cookiebanner.js"></script>
+    </body>
+</html>
